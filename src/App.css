@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+
+.team-work-projct{
+  background-color: #f5f7fa!important;
+}
+.exeed-clint-details{
+  text-align: justify;
+}
+/* first-section */
+.company-growth-detail{
+  background-color: #baf8dd!important;
+}
+.excellence-report,.top-commas{
+  color: #ff22b1!important;
+}
+/* second-section */
+.team-work-project-details{
+  display: block;
+  /* margin-top: 1em; */
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: bold;
+}
+.top-commas{
+  font-size: 50px;
+}
+.need-team-work-details{
+  margin-top: 15rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* third-section */
+.team-work-resources{
+  background-color: #f5f7fa!important;;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.team-work-impact-section{
+  background-color: white !important;
+  box-shadow: 1px 1px 10px 1px #888888;
+  border-radius: 10px;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.team-work-impact-section:hover{
+  transition: 0.5s ease;
 }
-
-.App-link {
-  color: #61dafb;
+.team-performce-section{
+  background-color: white !important;
+  box-shadow: 1px 1px 10px 1px #888888;
+  margin-top: 80px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.team-product-info{
+  border-bottom: 0.5px solid black !important;
+  margin: 40px 0px; 
+}
+.first-part-resources{
+  margin-top: 100px;
+}
+.team-product-info:hover{
+  background-color: #f5f7fa!important; ;
 }
